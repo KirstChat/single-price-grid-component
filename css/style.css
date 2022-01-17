@@ -4,6 +4,7 @@
   --light-cyan: #4bbfbd;
   --cyan: #2ab2af;
   --green: #c0df34;
+  --dark-green: #b3d12f;
 
   --background: #e6eff5;
   --grey: #9aa7be;
@@ -79,6 +80,7 @@ body {
 /* Card 2 */
 .card-2 {
   background: var(--cyan);
+  border-bottom-left-radius: 0.5rem;
   grid-area: card-2;
 }
 
@@ -102,14 +104,22 @@ body {
   border-radius: 5px;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
   color: inherit;
+  cursor: pointer;
   font-family: inherit;
   font-size: inherit;
   padding: 1rem;
 }
 
+.card-2 .card__btn:hover,
+.card-2 .card__btn:active {
+  background: var(--dark-green);
+  transform: translateY(1px);
+}
+
 /* Card 3 */
 .card-3 {
   background: var(--light-cyan);
+  border-bottom-right-radius: 0.5rem;
   grid-area: card-3;
 }
 
@@ -176,6 +186,10 @@ footer {
   }
 
   /* Card 2 */
+  .card-2 {
+    border-radius: 0;
+  }
+
   .card-2 .card__sub-heading {
     margin-bottom: 1.125rem;
   }
@@ -186,5 +200,10 @@ footer {
 
   .card-2 .card__btn {
     margin-top: 1.625rem;
+  }
+
+  /* Card 3 */
+  .card-3 {
+    border-bottom-left-radius: 0.5rem;
   }
 }
