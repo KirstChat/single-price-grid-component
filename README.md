@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- GitHub URL: [https://github.com/KirstChat/single-price-grid-component](https://github.com/KirstChat/single-price-grid-component)
+- Solution URL: [https://www.frontendmentor.io/solutions/grid-component-solution-K5TMOaI4X](https://www.frontendmentor.io/solutions/grid-component-solution-K5TMOaI4X)
 - Live Site URL: [https://kirstchat.github.io/single-price-grid-component/](https://kirstchat.github.io/single-price-grid-component/)
 
 ### Built with
