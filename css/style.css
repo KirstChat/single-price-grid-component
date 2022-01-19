@@ -108,6 +108,7 @@ body {
   font-family: inherit;
   font-size: inherit;
   padding: 1rem;
+  transition: all 0.3s ease;
 }
 
 .card-2 .card__btn:hover,
